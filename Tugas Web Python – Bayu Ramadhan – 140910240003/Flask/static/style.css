@@ -1,0 +1,80 @@
+/* Style dasar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #329ad1;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #2f2d2d;
+  color: white;
+  width: 100%;
+}
+
+img {
+  margin-top: 20px;
+}
+
+/* style container gambar */
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* style gambar */
+.about-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 8px solid #2f2d2d;
+}
+
+/*jarak nama*/
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+h2,
+p {
+  display: block; /* Ensure they're not set to 'none' */
+  visibility: visible; /* Ensure they're not set to 'hidden' */
+}

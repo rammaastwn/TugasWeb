@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="{{ url_for('home') }}">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Tentang Saya</h1>
+      <p>Bayu Ramadhan</p>
+      <p>140910240003</p>
+
+      <div class="image-container">
+        <img
+          src="{{ url_for('static', filename='image/image2.jfif') }}"
+          alt="About Image 2"
+          class="about-image"
+        />
+        <img
+          src="{{ url_for('static', filename='image/image4.jfif') }}"
+          alt="About Image 4"
+          class="about-image"
+        />
+      </div>
+
+      <h2></h2>
+      <p>
+        Foto di sebelah kiri adalah foto dimana saya menjabat pertama kali
+        selama berkuliah, dimana saya menjabat sebagai Staff Biro PIO Kabinet
+        Akselerasi Daya. Foto di sebelah kanan ini adalah kali pertama saya mengikuti event besar resmi dari Teknik Elektro di tahun 2024, dari event ini saya banyak bertemu degan orang-orang hebat.
+      </p>
+
+      <div class="image-container">
+        <img
+          src="{{ url_for('static', filename='image/image3.jfif') }}"
+          alt="About Image 3"
+          class="about-image"
+        />
+        <img
+          src="{{ url_for('static', filename='image/image6.jfif') }}"
+          alt="About Image 6"
+          class="about-image"
+        />
+        <img
+          src="{{ url_for('static', filename='image/image5.jfif') }}"
+          alt="About Image 5"
+          class="about-image"
+        />
+      </div>
+        <h2></h2>
+      <p>
+        Foto ini adalah foto liburan, di foto sebelah kiri adalah waktu dimana saya dalam perjalanan menuju puncak Gunung Guntur dengan ketinggian 2249 mdpl saya dan teman-teman saya berangkat dari pos 3 pada pukul 3 subuh. Sedangkan di kanan adalah foto saya dengan teman-teman yang ikut mendaki saat kami berada di puncak gunung pada pukul 8 kurang.
+      </p>
+
+    </main>
+
+    <footer>
+      <p>@baayurmadhn</p>
+    </footer>
+  </body>
+</html>
